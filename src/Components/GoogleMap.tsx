@@ -6,7 +6,7 @@ const GoogleMapWrap = styles.div`
   height: 50vh;
 `;
 
-const GoogleMap = ({ google, mapId, location }: GoogleMapProps) => {
+const GoogleMap = ({ google, mapId, location }: GoogleMapInitProps) => {
   const { lat, lng } = location;
 
   useEffect(() => {
